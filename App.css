@@ -1,0 +1,98 @@
+/* General app container styling */
+.app-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    min-height: 100vh;
+  }
+  
+  /* Header section styling */
+  header {
+    background-color: #343a40;
+    color: white;
+    padding: 15px;
+    border-bottom: 2px solid #007bff;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  /* Navigation menu styling */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+    color: #ffc107;
+  }
+  
+  /* Main content area */
+  main {
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #343a40;
+    margin-bottom: 15px;
+  }
+  
+  /* Button styling across the app */
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* General form and input styling */
+  input[type="text"], input[type="number"] {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: calc(100% - 22px);
+    max-width: 300px;
+  }
+  
+  /* Styling the form container in each component */
+  form {
+    margin: 20px 0;
+  }
+  
+  .income-list, .expenses-list, .budgets-list, .report-display {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  

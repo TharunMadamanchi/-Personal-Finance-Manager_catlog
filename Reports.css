@@ -1,0 +1,26 @@
+.reports-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    border-radius: 8px;
+  }
+  
+  .report-options button {
+    margin: 10px 5px;
+    padding: 10px;
+    background-color: #FFC107;
+    color: black;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .report-options button:hover {
+    background-color: #FFB300;
+  }
+  
+  .report-display {
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+  }
+  
